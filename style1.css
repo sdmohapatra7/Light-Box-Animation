@@ -1,0 +1,22 @@
+
+#lightbox{
+    height: 0px;
+    width: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    transition: all 2s ease-in-out;
+}
+#lightbox:target{
+    height: 30%;
+    width: 30%;
+    top: 25%;
+    left: 25%;
+    background-color: lightgray;
+}
+#gradient{
+    height: 150px;
+    width: 300px;
+    background-image: repeating-linear-gradient(45deg, #9e6df9, #f77656 25%, #5ffc87 50%);
+}
